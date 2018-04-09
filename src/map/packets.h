@@ -3491,6 +3491,352 @@ packet(0x96e,-1,clif->ackmergeitems);
 	packetKeys(0x62363E36,0x3E363E36,0x3E363E36); /* Dastgir */
 #endif
 
+/* PacketKeys: http://herc.ws/board/topic/1105-hercules-wpe-free-june-14th-patch/ */
+#if PACKETVER >= 20110817
+	packetKeys(0x053D5CED,0x3DED6DED,0x6DED6DED); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20110824
+	packetKeys(0x35C91401,0x262A5556,0x28FA03AA); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20110831
+	packetKeys(0x3AD67ED0,0x44703C69,0x6F876809); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20110906
+	packetKeys(0x3AD67ED0,0x44703C69,0x6F876809); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20111005
+	packetKeys(0x291E6762,0x77CD391A,0x60AC2F16); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20111012
+	packetKeys(0x7F3C2D29,0x59B01DE6,0x1DBB44CA); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20111021
+	packetKeys(0x357D55DC,0x5A8D759F,0x245C30F5); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20111025
+	packetKeys(0x50AE1A63,0x3CE579B5,0x29C10406); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20111102
+	packetKeys(0x5324329D,0x5D545D52,0x06137269); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20111109
+	packetKeys(0x0B642BDA,0x6ECB1D1C,0x61C7454B); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20111122
+	packetKeys(0x3B550F07,0x1F666C7C,0x60304EF5); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20111207
+	packetKeys(0x2A610886,0x3E09165E,0x57C11888); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20111214
+	packetKeys(0x5151306B,0x7AE32886,0x53060628); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20111220
+	packetKeys(0x05D53871,0x7D0027B4,0x29975333); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20111228
+	packetKeys(0x0FF87E93,0x6CFF7860,0x3A3D1DEC); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20120104
+	packetKeys(0x262034A1,0x674542A5,0x73A50BA5); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20120111
+	packetKeys(0x2B412AFC,0x4FF94487,0x6705339D); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20120120
+	packetKeys(0x504345D0,0x3D427B1B,0x794C2DCC); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20120202
+	packetKeys(0x2CFC0A71,0x2BA91D8D,0x087E39E0); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20120207
+	packetKeys(0x1D373F5D,0x5ACD604D,0x1C4D7C4D); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20120214
+	packetKeys(0x7A255EFA,0x30977276,0x2D4A0448); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20120229
+	packetKeys(0x520B4C64,0x2800407D,0x47651458); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20120307
+	packetKeys(0x382A6DEF,0x5CBE7202,0x61F46637); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20120314
+	packetKeys(0x689C1729,0x11812639,0x60F82967); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20120321
+	packetKeys(0x21F9683F,0x710C5CA5,0x1FD910E9); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20120328
+	packetKeys(0x75B8553B,0x37F20B12,0x385C2B40); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20120404
+	packetKeys(0x0036310C,0x2DCD0BED,0x1EE62A78); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20120410
+	packetKeys(0x01581359,0x452D6FFA,0x6AFB6E2E); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20120418
+	packetKeys(0x01540E48,0x13041224,0x31247924); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20120424
+	packetKeys(0x411D1DBB,0x4CBA4848,0x1A432FC4); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20120509
+	packetKeys(0x16CF3301,0x1F472B9B,0x0B4A3CD2); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20120515
+	packetKeys(0x4A715EF9,0x79103E4F,0x405C1238); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20120525
+	packetKeys(0x70EB4CCB,0x0487713C,0x398D4B08); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20120605
+	packetKeys(0x68CA3080,0x31B74BDD,0x505208F1); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20120612
+	packetKeys(0x32E45D64,0x35643564,0x35643564); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20120618
+	packetKeys(0x261F261F,0x261F261F,0x261F261F); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20120702
+	packetKeys(0x25733B31,0x53486CFD,0x398649BD); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20120716
+	packetKeys(0x76052205,0x22052205,0x22052205); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20130320
+	packetKeys(0x3F094C49,0x55F86C1E,0x58AA359A); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20130514
+	packetKeys(0x75794A38,0x58A96BC1,0x296E6FB8); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20130522
+	packetKeys(0x6948050B,0x06511D9D,0x725D4DF1); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20130529
+	packetKeys(0x023A6C87,0x14BF1F1E,0x5CC70CC9); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20130605
+	packetKeys(0x646E08D9,0x5F153AB5,0x61B509B5); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20130612
+	packetKeys(0x6D166F66,0x3C000FCF,0x295B0FCB); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20130618
+	packetKeys(0x434115DE,0x34A10FE9,0x6791428E); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20130626
+	packetKeys(0x38F453EF,0x6A040FD8,0X65BD6668); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20130703
+	packetKeys(0x4FF90E23,0x0F1432F2,0x4CFA1EDA); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20130807
+	packetKeys(0x7E241DE0,0x5E805580,0x3D807D80); /* Thanks to Shakto */
+#endif
+
+#if PACKETVER >= 20130814
+	packetKeys(0x23A23148,0x0C41420E,0x53785AD7); /* Themon */
+#endif
+
+#if PACKETVER >= 20131218
+	packetKeys(0x6A596301,0x76866D0E,0x32294A45);
+#endif
+
+#if PACKETVER >= 20131223
+	packetKeys(0x631C511C,0x111C111C,0x111C111C);
+#endif
+
+#if PACKETVER >= 20131230
+	packetKeys(0x611B7097,0x01F957A1,0x768A0FCB);
+#endif
+
+// 2014 Packet Keys
+
+#if PACKETVER >= 20140115
+	packetKeys(0x63224335,0x0F3A1F27,0x6D217B24); /* Thanks to Yommy */
+#endif
+
+#if PACKETVER >= 20140205
+	packetKeys(0x63DC7BDC,0x7BDC7BDC,0x7BDC7BDC); /* Themon */
+#endif
+
+#if PACKETVER >= 20140305
+	packetKeys(0x116763F2,0x41117DAC,0x7FD13C45); /* Themon */
+#endif
+
+#if PACKETVER >= 20140402
+	packetKeys(0x15D3271C,0x004D725B,0x111A3A37); /* Themon */
+#endif
+
+#if PACKETVER >= 20140416
+	packetKeys(0x04810281,0x42814281,0x42814281); /* Themon */
+#endif
+
+#if PACKETVER >= 20140613
+	packetKeys(0x4fc83479,0x3ab04d1f,0x477b4010);
+#endif
+
+#if PACKETVER >= 20141016
+	packetKeys(0x2DFF467C,0x444B37EE,0x2C1B634F); /* YomRawr */
+#endif
+
+#if PACKETVER >= 20141022
+	packetKeys(0x290551EA,0x2B952C75,0x2D67669B); /* YomRawr */
+#endif
+
+// 2015 Packet Keys
+
+#if PACKETVER >= 20150513
+	packetKeys(0x62C86D09,0x75944F17,0x112C133D); /* Dastgir */
+#endif
+
+#if PACKETVER >= 20150916
+	packetKeys(0x17F83A19,0x116944F4,0x1CC541E9); /* Napster */
+#endif
+
+#if PACKETVER >= 20151001
+	packetKeys(0x5CFF4561,0x32514AD1,0x06D126D1); /* Dastgir */
+#endif
+
+#if PACKETVER >= 20151029
+ 	packetKeys(0x45B945B9,0x45B945B9,0x45B945B9); /* Dastgir */
+#endif
+
+#if PACKETVER >= 20151104
+	packetKeys(0x4C17382A,0x7ED174C9,0x29961E4F);
+#endif
+
+// 2016 Packet Keys
+
+#if PACKETVER >= 20151216
+	packetKeys(0x25DD643D,0x61AC39DE,0x77A8206D); /* Dastgir */
+#endif
+
+#if PACKETVER >= 20160316
+	packetKeys(0x62363E36,0x3E363E36,0x3E363E36); /* Dastgir */
+#endif
+
+												  // 2016-03-30aRagexe
+#if PACKETVER >= 20160330
+	parseable_packet(0x0A6E, -1, clif_parse_Mail_send, 2, 4, 28, 52, 60, 62, 64, 68); // CZ_REQ_WRITE_MAIL2
+#endif
+
+																					  // 2016-06-01aRagexe
+#if PACKETVER >= 20160601
+	packet(0x0A7D, -1);
+#endif
+
+	// 2016-06-22aRagexeRE
+#if PACKETVER >= 20160622
+	packet(0x0A84, 94);
+#endif
+
+	// 2016-09-21bRagexeRE
+#if PACKETVER >= 20160921
+	packet(0x0A37, 59);
+#endif
+
+	// 2016-09-28cRagexeRE
+#if PACKETVER >= 20160928
+	parseable_packet(0x0A97, 8, clif_parse_dull, 0);
+	parseable_packet(0x0A99, 4, clif_parse_dull, 0);
+	parseable_packet(0x0A9C, 2, clif_parse_dull, 0);
+#endif
+
+	// 2016-10-26bRagexeRE
+#if PACKETVER >= 20161026
+	packet(0x0AA5, -1);
+#endif
+
+	// 2017-04-19bRagexeRE
+#if PACKETVER >= 20170419
+	parseable_packet(0x0AC0, 26, clif_parse_Mail_refreshinbox, 2, 10);
+	parseable_packet(0x0AC1, 26, clif_parse_Mail_refreshinbox, 2, 10);
+#endif
+
+	// 2017-05-02dRagexeRE
+#if PACKETVER >= 20170502
+	packet(0x0A43, 85);
+	packet(0x0A44, -1);
+	packet(0x0ABD, 10);
+	parseable_packet(0x0ACE, 4, clif_parse_dull, 0);
+#endif
+
+	// 2017-08-30bRagexeRE
+#if PACKETVER >= 20170830
+	packet(0x0ACB, 12);
+	packet(0x0ACC, 18);
+#endif
+
+	// 2018-02-07bRagexeRE
+#if PACKETVER >= 20180207
+	parseable_packet(0x0AF4, 11, clif_parse_UseSkillToPos, 2, 4, 6, 8, 10);
+#endif
+
+	// 2018-02-21aRagexeRE or 2018-02-21bRagexeRE
+#if PACKETVER >= 20180221
+	packet(0x0206, 35); // ZC_FRIENDS_STATE
+	packet(0x0af7, 32);
+#endif
+
+	// 2018-03-07bRagexeRE
+#if PACKETVER >= 20180307
+	parseable_packet(0x0A68, 3, clif_parse_dull, 0);
+	packet(0x0AE2, 7);
+	parseable_packet(0x0AEF, 2, clif_parse_dull, 0);
+	packet(0x0AF0, 10);
+#endif
+
 #if defined(OBFUSCATIONKEY1) && defined(OBFUSCATIONKEY2) && defined(OBFUSCATIONKEY3)
 	packetKeys(OBFUSCATIONKEY1,OBFUSCATIONKEY2,OBFUSCATIONKEY3);
 #endif
